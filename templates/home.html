@@ -8,7 +8,7 @@
 
 {% for article in articles %}
 
-    <br>
+    <p>
         <h3>{{loop.index}}: <a href="articles/{{ article.slug }}.html">{{article.title}}</a></h3>
         <img src="{{article.thumbnail}}" alt="Thumbnail"><br/>
         {{article.summary}}<br/>
