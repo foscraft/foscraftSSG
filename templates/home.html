@@ -9,7 +9,7 @@
 {% for article in articles %}
 
     <p>
-        <h2>{{loop.index}}: <a href="posts/{{ post.slug }}.html">{{article.title}}</a> <small>{{post.date}}</small></h2>
+        <h2>{{loop.index}}: <a href="articles/{{ article.slug }}.html">{{article.title}}</a> <small>{{article.date}}</small></h2>
         {{article.summary}}
     </p>
 
