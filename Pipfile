@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-jinja2 = "==3.0.2"
+jinja2 = "==3.0.3"
 markdown2 = "*"
 
 [dev-packages]
