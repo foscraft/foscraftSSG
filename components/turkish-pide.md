@@ -1,26 +1,14 @@
 ---
-title: Turkish Cheese Pide
-date: 2019-04-12
-tags: Bread, Savoury
-thumbnail: img/pide.jpg
-summary: Traditional Turkish pide stuffed with cheese. Great as an appetizer or for breakfast or lunch.
-slug: turkish-pide
+title: ssg-dst
+date: 2021-04-12
+tags: ssg, code
+thumbnail: img/pide.svg
+summary: Content that is typically powered by a database, such as comments, sessions and user data can only be handled through third party services.
+slug: ssg-data
 ---
 
-__Ingredients__
+The major downside is that code cannot be executed after a site is created. You are stuck with the output files so if you're used to building web applications with a traditional web framework you'll have to change your expectations.
 
-+ 500gm bread flour
-+ 1 tblspoon yeast
-+ 1 tblspoon honey
-+ 1 tsp salt
-+ 2 tblsp olive oil
-+ 250 ml or as req water.
+Content that is typically powered by a database, such as comments, sessions and user data can only be handled through third party services. For example, if you want to have comments on a static website you'd need to embed Disqus's form and be completely reliant upon their service.
 
-**Ingredients for the filling:**
-
-+ 1 cup grated Mozerella
-+ ½ cup crumbled feta
-
-__Preparation__
-
-Combine the ingredients of the dough and knead until smooth and elastic. Let rest 45 minutes. Divide in two for two large pides or into four for four medium sized pides. Roll each in a rectangle. Spread the cheese filling over top. And roll the sides in to form a boat shape. Let rise for 10-15 minutes. Brush the sides with olive oil and bake at 230C for 10-15 minutes or until nicely browned.
+Many web applications simply cannot be built with only a static site generator. However, a static website generator can create part of a site that will be served up by a web server while other pages are handled by the WSGI server. If done right, those web applications have the potential to scale better than if every page is rendered by the WSGI server. The complexity may or may not be worth it for your specific application.

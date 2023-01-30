@@ -8,9 +8,11 @@
 
 {% for article in articles %}
 
-    <p>
-        <h2>{{loop.index}}: <a href="articles/{{ article.slug }}.html">{{article.title}}</a> <small>{{article.date}}</small></h2>
-        {{article.summary}}
+    <br>
+        <h3>{{loop.index}}: <a href="articles/{{ article.slug }}.html">{{article.title}}</a></h3>
+        <img src="{{article.thumbnail}}" alt="Thumbnail"><br/>
+        {{article.summary}}<br/>
+        <small>Date Publisheed : {{article.date}}</small>
     </p>
 
 {% endfor %}

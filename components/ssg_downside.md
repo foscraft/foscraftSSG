@@ -2,7 +2,7 @@
 title: SSG downsides ?
 date: 2023-01-01
 tags: website, ssg
-thumbnail: img/pide.jpg
+thumbnail: img/pide.svg
 summary: Content that is typically powered by a database, such as comments, sessions and user data can only be handled through third party services..
 slug: ssg-downside
 ---
