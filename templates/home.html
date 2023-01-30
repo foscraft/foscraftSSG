@@ -7,13 +7,15 @@
 <div>
 
 {% for article in articles %}
+    <div class="card">
 
-    <p>
-        <h3>{{loop.index}}: <a href="articles/{{ article.slug }}.html">{{article.title}}</a></h3>
+    <p class="card-body">
         <img src="{{article.thumbnail}}" alt="Thumbnail"><br/>
+        <h3>{{loop.index}}: <a href="articles/{{ article.slug }}.html">{{article.title}}</a></h3>
         {{article.summary}}<br/>
         <small>Date Publisheed : {{article.date}}</small>
     </p>
+</div>
 
 {% endfor %}
 
