@@ -33,7 +33,7 @@ articles_metadata = [articles[article].metadata for article in articles]
 tags = [article["tags"] for article in articles_metadata]
 home_html = home_template.render(articles=articles_metadata, tags=tags)
 
-with open("output_components/home.html", "w") as f:
+with open("index.html", "w") as f:
     f.write(home_html)
 
     for article in articles:
