@@ -9,8 +9,8 @@ from markdown2 import markdown
 
 articles = {}
 
-for md_article in os.listdir("components"):
-    file_path = os.path.join("components", md_article)
+for md_article in os.listdir("markdownfiles"):
+    file_path = os.path.join("markdownfiles", md_article)
 
     with open(file_path, "r") as f:
         articles[md_article] = markdown(f.read(), extras=["metadata"])
@@ -47,7 +47,7 @@ with open("index.html", "w") as f:
 
         article_html = article_template.render(article=article_data)
 
-        article_file_path = "output_components/articles/{slug}.html".format(
+        article_file_path = "articles/{slug}.html".format(
             slug=article_metadata["slug"]
         )
 
