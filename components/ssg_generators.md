@@ -2,7 +2,7 @@
 title: How do static website generators work?
 date: 2023-01-01
 tags: website, ssg
-thumbnail: img/pide.svg
+thumbnail: img/two.jpg
 summary: Static site generators allow a user to create HTML files by writing in a markup language and coding template files.
 slug: ssg-site
 ---

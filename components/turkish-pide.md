@@ -2,7 +2,7 @@
 title: ssg-dst
 date: 2021-04-12
 tags: ssg, code
-thumbnail: img/pide.svg
+thumbnail: img/three.jpg
 summary: Content that is typically powered by a database, such as comments, sessions and user data can only be handled through third party services.
 slug: ssg-data
 ---
